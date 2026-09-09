@@ -1,0 +1,1 @@
+export default function BosphorusMesh() { return <mesh rotation={[-Math.PI / 2, 0, 0]}><planeGeometry args={[18, 18, 16, 16]} /><meshStandardMaterial color="#274B51" metalness={.7} roughness={.25} /></mesh> }

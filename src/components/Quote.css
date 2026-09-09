@@ -1,0 +1,1 @@
+.quote-section{display:grid;place-items:center;min-height:60vh;padding:100px 8vw;background:radial-gradient(circle,rgba(18,60,74,.65),transparent 55%),var(--black);text-align:center}.quote-section p{color:var(--gold);font-size:9px;letter-spacing:.2em}.quote-section blockquote{max-width:900px;margin:28px 0 0;font:500 clamp(45px,7vw,105px)/.76 var(--serif)}

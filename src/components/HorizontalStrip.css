@@ -1,0 +1,1 @@
+.horizontal-strip{display:flex;gap:15px;margin-top:75px;overflow-x:auto;scrollbar-width:none}.horizontal-strip::-webkit-scrollbar{display:none}.horizontal-strip article{position:relative;flex:0 0 27vw;height:410px;min-width:250px}.horizontal-strip h3{position:absolute;z-index:1;right:18px;bottom:18px;left:18px;margin:0;font:500 38px/.8 var(--serif);text-transform:uppercase}
