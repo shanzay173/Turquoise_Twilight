@@ -31,6 +31,10 @@ export default function TasteGallery() {
   useEffect(() => {
     const strip = stripRef.current
     if (!strip) return undefined
+    if (window.matchMedia('(max-width: 600px)').matches) {
+      strip.scrollTo({ left: 0, behavior: 'auto' })
+      return undefined
+    }
     const timer = window.setInterval(() => {
       const maxScroll = strip.scrollWidth - strip.clientWidth
       if (maxScroll <= 0) return
