@@ -20,6 +20,11 @@ export default function TurkeyScenes() {
   const stageRef = useRef(null)
 
   useEffect(() => {
+    if (window.matchMedia('(max-width: 600px)').matches) {
+      stageRef.current?.style.setProperty('--pointer-x', '0')
+      stageRef.current?.style.setProperty('--pointer-y', '0')
+      return undefined
+    }
     const timer = window.setInterval(() => {
       setDirection(1)
       setActive((current) => (current + 1) % scenes.length)
