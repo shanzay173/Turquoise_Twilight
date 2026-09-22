@@ -28,3 +28,6 @@
 .destination-video__details h3{font-size:clamp(24px,2.8vw,44px)}
 @media (max-width:600px){.destination-video__details h3{font-size:25px;transform:scaleX(.94);transform-origin:left center}}
 .destination-video__frame video,.destination-video:hover .destination-video__frame video{filter:none;image-rendering:auto}
+
+@media (max-width:900px){.destination-video{grid-template-columns:1fr;min-height:0}.destination-video__frame,.destination-video__frame video{height:56vw;min-height:220px}.destination-video__details{min-height:auto;padding:28px 24px 32px}.destination-video__count{top:24px;right:24px}.destination-video__details h3{white-space:normal;font-size:clamp(30px,9vw,54px);line-height:.9}.destination-video__details>p:last-of-type{max-width:none}}
+@media (max-width:600px){.destination-video__frame,.destination-video__frame video{height:64vw;min-height:200px}.destination-video__details{padding:22px 18px 26px}.destination-video__count{top:18px;right:18px}.destination-video__details h3{font-size:clamp(28px,10vw,42px)}}
